@@ -2,8 +2,8 @@ package com.example.springapp.model;
 
 public class QuestionProbability {
 
-    private String question;
-    private double probability;
+    private final String question;
+    private final double probability;
 
     public QuestionProbability(String question, double probability) {
         this.question = question;
